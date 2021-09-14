@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>My Personal PortFolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!--cdn icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Swiper Bundle CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+
+  <!-- Light-box CSS/JS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css">
+  <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/portfolio.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================Header Navigation=================== -->
+<section id="header">
+    <nav class="nav-menu">
+      <div class="nav-links" id="navlinks">
+        <ul>
+          <li class="active"><a href="#hero">Home</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="#portfolio">PortFolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+        <!-- Search Bar -->
+                <a href="#" style="border-style: none; padding-left: 20px;"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 16.505 16.494" class="search-icon" style="padding-right: 5px;" ><path d="M426.811,312.25a6.71,6.71,0,1,1,1.172-1.169l.011-.014,4.49,4.472-1.192,1.192-4.474-4.481Zm-4.112-.268a5.035,5.035,0,0,0,0-10.071h0a5.035,5.035,0,0,0,0,10.071Z" transform="translate(-415.978 -300.236)" fill="#808080"></path></svg></a><input placeholder="Search..." type="search" role="search" name="q" aria-label="Search" value="" class="global-search active" style="font-family: 'Lato'; padding-left: 5px; border-radius: 50px; font-size: 15px;" >
+        </ul>
+      </div>
+    </nav>
+</section><!-- ================END Header Navigation=================== -->
+
+<!-- ================Hero Navigation=================== -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+
+  <div class="hero-container" data-aos="fade-in">
+     
+      <img src="assets/img/profile-oddy-1.jpg" alt="" class="img-fluid rounded-circle">
+      <h1><a href="index.html">Odracir Abella</a></h1>
+      <p>I'm a <span class="typed" data-typed-items="Web Designer,Web Developer,Freelancer"></span></p>
+
+      <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+  </div>
+    
+
+</section><!-- ================END Hero Navigation=================== -->
+  
+  <main id="main">
+
+<!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>In this section are compilation of my academic works output. This include circuit projects, photo editing, management, 3D objects, 3D floor plan, and technical skills.   </p>
+        </div>
+
+        <!-- INSERT -->
+
+<!-- selectors ---------------------------------------->
+
+        <div class="row" data-aos="fade-right">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-button">
+              <li id="adven" onclick="advenFunction()" class="box">All Project</li>
+              <li id="diving" onclick="diveFunction()" class="box">Application</li>
+              <li id="eat" onclick="foodsFunction()" class="box">Photoshop</li>
+              <li id="muse" onclick="museumFunction()" class="box">Website</li>
+              <li id="fest" onclick="festivalFunction()" class="box">3D Works</li>
+              <li id="see" onclick="sightFunction()" class="box">Technical Skills</li>
+            </ul>
+          </div>
+        </div>
+
+    <!-- end of selectors ------------------------------------------>
+
+
+<!-- ADVENTURE ------------------------------------------------------>
+    <div class="adventure" id="adventure" data-aos="fade-left">
+        <!-- <h2 class="section-title-portfolio"><i class="fas fa-tools"></i> <br> CIRCUIT PROJECTS</h2> -->
+        <div class="adventure-container swiper">
+            <div class="swiper-wrapper">
+                
+<!--START  adventure 1 -------------------------------------------------->
+                <div class="adventure_card swiper-slide">
+                    <!-- <img src="assets/img/portfolio/project/device.jpg" alt="" class="adventure-img"> -->
+
+                    <a href="#popup-video-adven1" ><video src="assets/img/portfolio/project/thesis.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                    <div class="adventure-data">
+                        
+                        <!-- <h2 class="adventure-title"><i class="fas fa-tools"></i> Faceshield Device</h2>
+                        <span class="adventure-desc">With Body Temperature Scanner and Recording System</span> -->
+                    </div>
+                </div>
+
+<!-- adventure 2 ----------------------------------------------------->
+                <div class="adventure_card swiper-slide">
+                    <!-- <img src="assets/img/portfolio/project/device-1.jpg" alt="" class="adventure-img"> -->
+
+                     <a href="#popup-video-adven2"><video src="assets/img/portfolio/project/faceshield.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                    <div class="adventure-data">
+                        
+                       <!--  <h2 class="adventure-title"><i class="fas fa-tools"></i> QR Scanner</h2>
+                        <span class="adventure-desc">QR Scanner Recording System</span> -->
+                    </div>
+                </div>
+
+<!-- adventure 3 ------------------------------------------------>
+                <div class="adventure_card swiper-slide">
+                    <img src="assets/img/portfolio/project/underconstruction.jpg" alt="" class="adventure-img">
+                    <div class="adventure-data">
+                        
+                      <!--   <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Danao, Bohol</h2>
+                        <span class="adventure-desc">Sea of Clouds Danao</span> -->
+                    </div>
+                </div>
+
+<!-- adventure 4 -------------------------------------------------->
+                <div class="adventure_card swiper-slide">
+                    <img src="assets/img/portfolio/project/underconstruction.jpg">
+                    <div class="adventure-data">
+                        
+                        <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Cagayan Valley</h2>
+                        <span class="adventure-desc">Callao Cave</span> -->
+                    </div>
+                </div> 
+
+<!-- END adventure -->
+
+<!-- START dive 1 -------------------------------------------------->
+                <div class="adventure_card swiper-slide">
+                    <!-- <img src="assets/img/portfolio/apps/application.jpg" alt="" class="adventure-img"> -->
+                    <a href="#popup-video-dive1"><video src="assets/img/portfolio/apps/application.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                    <div class="adventure-data">
+                        
+                        <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> PALAWAN</h2>
+                        <span class="adventure-desc">Tubbataha Reef</span> -->
+                    </div>
+                </div> 
+
+<!-- END dive -->
+
+<!-- START museum 1 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+               <!--  <img src="assets/img/portfolio/web/lakbayin.jpg" alt="" class="adventure-img"> -->
+
+                <a class="popup-video-web1"><video style="height: 70%; margin: 0 30px 0 0px;" src="assets/img/portfolio/web/web (1)-small.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> National Museum</h2>
+                    <span class="muse-desc">Metro Manila</span> -->
+                </div>
+            </div>
+
+            <!-- museum 2 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/kapipiercere.jpg" alt="" class="adventure-img"> -->
+
+                 <a class="popup-video-web2"><video style="height: 70%; margin: 0 30px 0 0px;" src="assets/img/portfolio/web/web (2)-small.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> Ayala Museum</h2>
+                    <span class="muse-desc">Makati</span> -->
+                </div>
+            </div>
+
+            <!-- museum 3 ------------------------------------------------>
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/myhero.jpg" alt="" class="adventure-img"> -->
+
+                <a class="popup-video-web3"><video style="height: 70%; margin: 0 30px 0 0px;" src="assets/img/portfolio/web/web (3)-small.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                <div class="adventure-data">
+                    
+                  <!--   <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> Art in Island</h2>
+                    <span class="muse-desc">Quezon City</span> -->
+                </div>
+            </div>
+
+            <!-- museum 4 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/personal.jpg" alt="" class="adventure-img"> -->
+
+                <a class="popup-video-web4"><video style="height: 70%; margin: 0 30px 0 0px;" src="assets/img/portfolio/web/web (4)-small.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> The Mind Museum</h2>
+                    <span class="muse-desc">Taguig</span> -->
+                </div>
+            </div>
+
+             <!-- museum 5 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/versa.jpg" alt="" class="adventure-img"> -->
+
+                <a class="popup-video-web5"><video style="height: 70%; margin: 0 30px 0 0px;" src="assets/img/portfolio/web/web (5)-small.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> The Mind Museum</h2>
+                    <span class="muse-desc">Taguig</span> -->
+                </div>
+            </div>
+
+<!-- END museum -->
+
+<!-- festival 1 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/house.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(1)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Sinulog Festival</h2>
+                    <span class="adventure-desc">Cebu | January 16</span> -->
+                </div>
+            </div>
+
+            <!-- festival 2 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/spray.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(2)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Ati-Atihan Festival</h2>
+                    <span class="adventure-desc">Aklan | 3rd Sunday of January</span> -->
+                </div>
+            </div>
+
+            <!-- festival 3 ------------------------------------------------>
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/faceshield.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(3)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Panagbenga Festival</h2>
+                    <span class="adventure-desc">Baguio City | February</span> -->
+                </div>
+            </div>
+
+            <!-- festival 4 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/solderingiron.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(4)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> MassKara Festival</h2>
+                    <span class="adventure-desc">Bacolod | October</span> -->
+                </div>
+            </div>
+
+            <!-- festival 5-------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/table.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(5)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> MassKara Festival</h2>
+                    <span class="adventure-desc">Bacolod | October</span> -->
+                </div>
+            </div>
+
+<!-- END festival -->
+
+            </div>
+        </div>
+
+<!-- PROJECT POPUP-ZOOM EFFECT -->
+    <!-- ADVENTURE(ALL PROJECT) -->
+        <div id="popup-video">
+            <span>&times;</span>
+            <a class="popup-video-adven1" ><video src="assets/img/portfolio/project/thesis.mp4" type="video/mp4" loop class="cliplay" muted></video></a>
+        </div>
+
+    </div>
+<!-- end of adventure ------------------------------------------->
+
+<!------------------------------- DIVE ------------------------------------->
+<section class="dive" id="dive">
+    <!-- <h2 class="section-title-portfolio"><i class="fas fa-mobile-alt"></i> <br> APPLICATIONS</h2> -->
+    <div class="adventure-container swiper">
+        <div class="swiper-wrapper">
+            
+            <!-- dive 1 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/apps/application.jpg" alt="" class="adventure-img"> -->
+                <video src="assets/img/portfolio/apps/application.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> PALAWAN</h2>
+                    <span class="adventure-desc">Tubbataha Reef</span> -->
+                </div>
+            </div>
+
+            <!-- dive 2 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/apps/underconstruction.jpg" alt="" class="adventure-img">
+
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Pintuyan, Leyte</h2>
+                    <span class="adventure-desc">Swim with Whale sharks</span> -->
+                </div>
+            </div>
+
+            <!-- dive 3 ------------------------------------------------>
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/apps/underconstruction.jpg" alt="" class="adventure-img">
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Boracay, Aklan</h2>
+                    <span class="adventure-desc">White beaches & thrilling water activities</span> -->
+                </div>
+            </div>
+
+            <!-- dive 4 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/apps/underconstruction.jpg" alt="" class="adventure-img">
+                <div class="adventure-data">
+                    
+                  <!--   <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Mindoro</h2>
+                    <span class="adventure-desc">Puerto Galera</span> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- end of dive ---------------------------------------------------------->
+
+
+<!---------------------- FOODS(PHOTOSHOP) --------------------------------->
+<section class="foods" id="foods">
+     <!-- <h2 class="section-title-portfolio"><i class="fas fa-photo-video"></i> <br>PHOTOSHOP</h2> -->
+    <div class="adventure-container container1 swiper">
+        <div class="swiper-wrapper">
+            
+
+            <!-- foods 1 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/photoshop/ps (5).png" alt="" class="adventure-img"> -->
+
+                <video style="height: 35%;" src="assets/img/portfolio/photoshop/gifads.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-utensils"></i> LECHON</h2>
+                    <span class="adventure-desc">Cebu City</span> -->
+                </div>
+            </div>
+
+            <!-- foods 2 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img style="height: 80%; width:     70%;"  src="assets/img/portfolio/photoshop/ps (4).jpg" alt="" class="adventure-img">
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-utensils"></i> EMPANADA</h2>
+                    <span class="adventure-desc">Vigan</span> -->
+                </div>
+            </div>
+
+
+            <!-- foods 4 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img style="height: 100%; width:  30%;" src="assets/img/portfolio/photoshop/ps (2).jpg" alt="" class="adventure-img">
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-utensils"></i> LOMI</h2>
+                    <span class="adventure-desc">Batangas</span> -->
+                </div>
+            </div>
+
+             <!-- foods 5 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img style="height: 100%; width:  40%;" src="assets/img/portfolio/photoshop/ps (1).jpg" alt="" class="adventure-img">
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-utensils"></i> LOMI</h2>
+                    <span class="adventure-desc">Batangas</span> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-------- end of FOODS -------------------------------------------------- -->
+
+
+<!-------------------------- Museums(WEBSITE) ------------------------------->
+<section class="museum" id="museum">
+   <!--  <h2 class="section-title-portfolio"><i class="fas fa-window-restore"></i><br>WEBSITE</h2> -->
+    <div class="adventure-container container1 swiper">
+        <div class="swiper-wrapper">
+            
+            <!-- museum 1 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+               <!--  <img src="assets/img/portfolio/web/lakbayin.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 70%; margin: 0 30px 0 30px;" src="assets/img/portfolio/web/web (1)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> National Museum</h2>
+                    <span class="muse-desc">Metro Manila</span> -->
+                </div>
+            </div>
+
+            <!-- museum 2 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/kapipiercere.jpg" alt="" class="adventure-img"> -->
+
+                 <video style="height: 70%; margin: 0 30px 0 30px;" src="assets/img/portfolio/web/web (2)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> Ayala Museum</h2>
+                    <span class="muse-desc">Makati</span> -->
+                </div>
+            </div>
+
+            <!-- museum 3 ------------------------------------------------>
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/myhero.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 70%; margin: 0 30px 0 30px;" src="assets/img/portfolio/web/web (3)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                  <!--   <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> Art in Island</h2>
+                    <span class="muse-desc">Quezon City</span> -->
+                </div>
+            </div>
+
+            <!-- museum 4 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/personal.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 70%; margin: 0 30px 0 30px;" src="assets/img/portfolio/web/web (4)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> The Mind Museum</h2>
+                    <span class="muse-desc">Taguig</span> -->
+                </div>
+            </div>
+
+             <!-- museum 5 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/web/versa.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 70%; margin: 0 30px 0 30px;" src="assets/img/portfolio/web/web (5)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> The Mind Museum</h2>
+                    <span class="muse-desc">Taguig</span> -->
+                </div>
+            </div>
+
+             <!-- museum 6 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/web/underconstruction.jpg" alt="" class="adventure-img">
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="muse-title"><i class="fas fa-map-marker-alt"></i> The Mind Museum</h2>
+                    <span class="muse-desc">Taguig</span> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------- end of Museums -------------------------------------------------- -->
+
+
+<!-------------------------------- FESTIVALS ------------------------------------->
+<section class="festival" id="festival">
+   <!--  <h2 class="section-title-portfolio"><i class="fas fa-cubes"></i> <br>3D WORKS</h2> -->
+    <div class="adventure-container container1 swiper">
+        <div class="swiper-wrapper">
+            
+            <!-- festival 1 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/house.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(1)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Sinulog Festival</h2>
+                    <span class="adventure-desc">Cebu | January 16</span> -->
+                </div>
+            </div>
+
+            <!-- festival 2 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/spray.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(2)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Ati-Atihan Festival</h2>
+                    <span class="adventure-desc">Aklan | 3rd Sunday of January</span> -->
+                </div>
+            </div>
+
+            <!-- festival 3 ------------------------------------------------>
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/faceshield.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(3)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Panagbenga Festival</h2>
+                    <span class="adventure-desc">Baguio City | February</span> -->
+                </div>
+            </div>
+
+            <!-- festival 4 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/solderingiron.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(4)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> MassKara Festival</h2>
+                    <span class="adventure-desc">Bacolod | October</span> -->
+                </div>
+            </div>
+
+            <!-- festival 5-------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <!-- <img src="assets/img/portfolio/3D/table.jpg" alt="" class="adventure-img"> -->
+
+                <video style="height: 90%; width: 90%;" src="assets/img/portfolio/3D/3D(5)-small.mp4" type="video/mp4" loop class="cliplay" muted></video>
+                <div class="adventure-data">
+                    
+                   <!--  <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> MassKara Festival</h2>
+                    <span class="adventure-desc">Bacolod | October</span> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------- end of festival -------------------------------------------------- -->
+
+
+<!-------------------------------- SIGHTSEEING ------------------------------------->
+<section class="sight" id="sight">
+    <!-- <h2 class="section-title-portfolio"><i class="fas fa-hand-sparkles"></i><br>TECHNICAL SKILLS</h2>
+ -->    <div class="adventure-container container1 swiper">
+        <div class="swiper-wrapper">
+            
+            <!-- sightseeing 1 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/skills/underconstruction.jpg" alt="" class="adventure-img" alt="" class="adventure-img">
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Chocolate Hills</h2>
+                    <span class="adventure-desc">Bohol</span> -->
+                </div>
+            </div>
+
+            <!-- sightseeing 2 ----------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/skills/underconstruction.jpg">
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Intramuros</h2>
+                    <span class="adventure-desc">Metropolitan Manila</span> -->
+                </div>
+            </div>
+
+            <!-- sightseeing 3 ------------------------------------------------>
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/skills/underconstruction.jpg">
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Mayon Volcano</h2>
+                    <span class="adventure-desc">Albay, Bicol</span> -->
+                </div>
+            </div>
+
+            <!-- sightseeing 4 -------------------------------------------------->
+            <div class="adventure_card swiper-slide">
+                <img src="assets/img/portfolio/skills/underconstruction.jpg">
+                <div class="adventure-data">
+                    
+                    <!-- <h2 class="adventure-title"><i class="fas fa-map-marker-alt"></i> Rizal Park</h2>
+                    <span class="adventure-desc">Ermite, Manila</span> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------- end of SIGHTSEEING -------------------------------------------------- -->
+
+    </div> <!-- container -->
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Here are the following service I will be able to do as freelancer or part-timer. If you have any question or suggestion kindly proceed to contact section.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="">Computer Troubleshooting</a></h4>
+            <p class="description">
+               <!--  INSERT HERE -->
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <h4 class="title"><a href="">Management Skill</a></h4>
+            <p class="description">
+                <!--  INSERT HERE -->
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="icofont-earth"></i></div>
+            <h4 class="title"><a href="">Web Dev & Design</a></h4>
+            <p class="description">
+            <!--  INSERT HERE -->
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="icofont-image"></i></div>
+            <h4 class="title"><a href="">Photo & Video Editing</a></h4>
+            <p class="description">
+                <!--  INSERT HERE -->
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></i>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="icofont-settings"></i></div>
+            <h4 class="title"><a href="">Computer Network</a></h4>
+            <p class="description">
+                <!--  INSERT HERE -->
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></i>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="fas fa-charging-station"></i></div>
+            <h4 class="title"><a href="">Circuitry</a></h4>
+            <p class="description">
+                <!--  INSERT HERE -->
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+    
+
+  </main> <!-- End #main -->
+
+<!-- =========================FOOTER==================== -->
+<section id="contact" data-aos="fade-up">
+  <div class="footer-art">
+    <div class="footer-content">
+      <section>
+        <h4>Quick Assistance</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="portfolio.html">PortFolio</a>
+        <a href="contact.html">Contact</a>
+
+          <section>
+            <h4>Quick Access</h4>
+            <a href="index.html#facts">Recreation</a>
+            <a href="resume.html#skills">Skills</a>
+            <a href="portfolio.html#services">Services</a>
+          </section>
+      </section>
+          <section class="subscribe">
+            <h4>Weekly Newsletter</h4>
+            <form action="">
+            <input type="email" placeholder="Your Email Here..." id="">
+            <input type="submit" value="Subscribe Now">
+            </form>
+          </section> 
+    </div>
+  </div>
+
+</section>
+
+<div class="owner">
+      <p class="copyright">&copy; This is created by  <a href="https://www.facebook.com/MeJaN006"><i class="fas fa-heart"></i> MeJan006</a></p>
+    </div>
+
+ <!-- END of Footer Section -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/services.js"></script>
+<!--     <script src="assets/js/swiper-bundle.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <script>
+    $(window).scroll(function() {
+        $('section').toggleClass('scrolled', $(this).scrollTop() > $('section').height() );
+      });
+  </script>
+
+  <script>
+      document.querySelectorAll('.adventure video').forEach(vid=> {
+        vid.onclick = () => {
+            document.querySelector('#popup-video').style.display = 'block';
+            document.querySelector('#popup-video video').src = vid.getAttribute('src');
+        }
+      });
+
+      document.querySelector('#popup-video span').onclick = () => {
+         document.querySelector('#popup-video').style.display = 'none'; 
+              
+      }
+  </script>
+</body>
+
+</html>
